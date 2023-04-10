@@ -11,6 +11,7 @@ Spotizer est une application web front-end qui offre une expérience similaire �
 ○ Recherche sur mot clef des playlists
 
 ● Click/touch => action :
+
 ○ Sélectionner un artiste pour afficher l’ensemble de ses albums (avec
 illustration)
 ○ Sélectionner un album pour afficher l’ensemble des chansons qu’il contient
@@ -34,6 +35,6 @@ Playlists”
 
 ## Installation
 
-1. Clonez le repository Spotizer en utilisant `git clone https://github.com/votre-nom/utilisateur/Spotizer.git`
+1. Clonez le repository Spotizer en utilisant `git clone https://github.com/Chabs8/Spotizer.git`
 2. Placez-vous dans le répertoire du projet et exécutez `npm install`
 3. Puis executez `npm start`
