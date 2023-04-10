@@ -78,7 +78,6 @@
                       <tr>
                         <th align='left'>#</th>
                         <th align='left'>Title</th>
-                        <th align='left'>Artist</th>
                         <th align='left'>Duration</th>
                       </tr>
                 </thead>
@@ -89,7 +88,6 @@
                       <tr>
                         <td>{index + 1}</td>
                         <td onClick={() => handleSongClick("iframe"+song.id, song.youtube)} >{song.title}</td>
-                        <td>{artists.name}</td>
                         <td>{song.length}</td>
                       </tr>
                 ))

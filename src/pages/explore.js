@@ -373,7 +373,6 @@ const Explore = () => {
             <tr>
               <th align='left'>#</th>
               <th align='left'>Title</th>
-              <th align='left'>Artist</th>
               <th align='left'>Duration</th>
             </tr>
           </thead>
@@ -382,7 +381,6 @@ const Explore = () => {
               <tr key={song.id}>
                 <td>{index + 1}</td>
                 <td onClick={() => handleSongClick("iframe" + song.id, song.youtube)}>{song.title}</td>
-                <td>{song.artist}</td>
                 <td>{song.length}</td>
               </tr>
             ))}
